@@ -1,0 +1,182 @@
+
+//mobile version//
+@media (max-width: 576px) { 
+
+
+//Navbar///
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color:  rgb(27, 77, 44);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        text-align:center;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 35px;
+        color: #ffffff;
+        display: block;
+        transition: 0.3s;
+      
+      }
+      
+      .sidenav a:hover{
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+//Navbar ends//
+//Menu button (will be remade as something else, an icon or something)//
+
+.menubutton{
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 10px;
+    width: 75px;
+  }
+//Menu button animated ends //
+//content in homepage starts//
+.content{
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url(img/bicycles.jpg);
+  background-position: center; /* Center the image */
+}
+
+.content img{
+  max-width: auto;
+  height: auto;
+}
+.content h1, p{
+  background-color:rgba(0, 0, 0, 0.6);
+  color:white;
+}
+//first content in homepage ends//
+//dwarf content//
+.dwarf h1{
+text-align: center;
+
+}
+.dwarf p{
+  text-align: center;
+  background-color:white;
+  color: black;
+  }
+
+.dwarf{
+  image-orientation: flip;
+}
+
+
+
+
+
+//dwarf content ends//
+
+
+
+
+
+} //mobile version ends here// 
+
+//Tablet and desktop version//
+@media (min-width: 576px) { 
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        text-align:center;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      
+      }
+      
+      .sidenav a:hover{
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+//Menu button animated//
+
+.menubutton{
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+//Menu button animated ends //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@import './node_modules/bootstrap/scss/bootstrap'
