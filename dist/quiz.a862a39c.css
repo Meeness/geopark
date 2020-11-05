@@ -87,8 +87,10 @@
     color: black;
   }
 
-  .dwarf {
-    image-orientation: flip;
+  .quiz img {
+    max-width: auto;
+    height: auto;
+    position: center;
   }
 }
 @media (min-width: 576px) {
