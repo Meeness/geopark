@@ -1,0 +1,28 @@
+{
+  "name": "geoparkpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meeness/geopark.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Meeness/geopark/issues"
+  },
+  "homepage": "https://github.com/Meeness/geopark#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "bundler": "^0.8.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "sass": "^1.28.0"
+  }
+}
