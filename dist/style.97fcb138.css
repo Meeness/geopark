@@ -77,18 +77,13 @@
     color: white;
   }
 
-  .dwarf h1 {
-    text-align: center;
-  }
-
   .dwarf p {
-    text-align: justify;
     background-color: white;
     color: black;
   }
 
   .dwarf {
-    image-orientation: flip;
+    text-align: center;
   }
 }
 @media (min-width: 576px) {
