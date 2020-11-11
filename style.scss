@@ -83,18 +83,36 @@
 //dwarf content//
 
 .dwarf p{
+  text-align: center;
   background-color:white;
   color: black;
   }
 
-.dwarf{
-text-align: center;
+.dwarf h1{
+  text-align: center;
+}
+.dwarf img{
+min-width: 100px;
+max-width:300px;
+align-self: center;
 }
 
 //dwarf content ends//
 
+.qrcode{
+  padding-top: 100px;
+  padding-bottom:100px;
+  background-color:yellow;
+  
+}
+.qrcode img{
+  max-width:auto;
+  align-self: right;
 
-
+}
+.qrcode h1{
+  text-align: left;
+}
 
 
 
@@ -157,7 +175,63 @@ text-align: center;
   }
 //Menu button animated ends //
 
+.menubutton{
+  position: fixed;
+  top: 0;
+  right: 0;
+}
 
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 10px;
+    width: 75px;
+  }
+//Menu button animated ends //
+//content in homepage starts//
+.content{
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url(img/bicycles.jpg);
+  background-position: center; /* Center the image */
+}
+
+.content img{
+  max-width: auto;
+  height: auto;
+}
+.content h1, p{
+  background-color:rgba(0, 0, 0, 0.6);
+  color:white;
+}
+//first content in homepage ends//
+//dwarf content//
+
+.dwarf p{
+  background-color:white;
+  color: black;
+  }
+
+.dwarf{
+text-align: center;
+}
+
+//dwarf content ends//
+
+.qrcode{
+  padding-top: 200px;
+  padding-bottom:200px;
+  background-color:yellow;
+  
+}
+.qrcode img{
+  max-width:200px;
+  align-self: center;
+}
 
 
 
