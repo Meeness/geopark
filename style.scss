@@ -56,7 +56,7 @@
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
-    background-color: #333;
+    background-color: black;
     margin: 6px 0;
     transition: 0.4s;
     border-radius: 10px;
@@ -83,43 +83,75 @@
 //dwarf content//
 
 .dwarf p{
+  padding-top:20px;
+  padding-bottom: 10px;
   text-align: center;
   background-color:white;
   color: black;
+  font-size: 20px;
   }
 
 .dwarf h1{
   text-align: center;
 }
 .dwarf img{
-min-width: 100px;
-max-width:300px;
+max-width: -webkit-fill-available;
 align-self: center;
 }
 
+
+.points{
+
+}
+
+.points img{
+  max-width: -webkit-fill-available;
+  align-self: center;
+
+}
 //dwarf content ends//
 
 .qrcode{
-  padding-top: 100px;
-  padding-bottom:100px;
+  padding-top: 50px;
+  padding-bottom:50px;
   background-color:yellow;
-  
-}
-.qrcode img{
-  max-width:auto;
-  align-self: right;
 
 }
-.qrcode h1{
-  text-align: left;
+.qrcode img{
+  position: relative;
+  right:0;
+  max-width: -webkit-fill-available;
 }
+.qrcode h1{
+text-align: center;
+}
+
+
+.map img{
+max-width: -webkit-fill-available;
+background-color: black;
+
+}
+.map{
+padding:0px;
+}
+
+.points img{
+  max-width: -webkit-fill-available;
+  background-color: black;
+  
+  }
+  .points{
+  padding:0px;
+  }
+
 
 
 
 } //mobile version ends here// 
 
 //Tablet and desktop version//
-@media (min-width: 576px) { 
+@media (min-width: 577px) { 
 
     .sidenav {
         height: 100%;
@@ -219,6 +251,11 @@ align-self: center;
 .dwarf{
 text-align: center;
 }
+.dwarf img{
+  min-width: 100px;
+  max-width:300px;
+  align-self: center;
+  }
 
 //dwarf content ends//
 
@@ -228,13 +265,24 @@ text-align: center;
   background-color:yellow;
   
 }
+.qrcode h1{
+  text-align: center;
+}
 .qrcode img{
   max-width:200px;
-  align-self: center;
+  align-self: right;
 }
 
 
 
+.map img{
+  max-width: -webkit-fill-available;
+  background-color: black;
+  
+  }
+  .map{
+  padding:0px;
+  }
 
 
 
