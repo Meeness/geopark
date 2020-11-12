@@ -133,6 +133,13 @@
   .points {
     padding: 0px;
   }
+
+  #footer {
+    text-align: center;
+    color: black;
+    background: none;
+    padding-top: 20px;
+  }
 }
 @media (min-width: 577px) {
   .sidenav {

@@ -97,8 +97,8 @@ text-align: center;
 //dwarf content ends//
 //quiz content//
 .quiz img{
-    max-width: auto;
-    height: auto; 
+  max-width: -webkit-fill-available; 
+     height: auto; 
     position: center;
 }
 
