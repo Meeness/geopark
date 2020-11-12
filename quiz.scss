@@ -1,4 +1,4 @@
-
+$warning:#336666;
 //mobile version//
 @media (max-width: 576px) { 
 
@@ -98,8 +98,13 @@ text-align: center;
 //quiz content//
 .quiz img{
   max-width: -webkit-fill-available; 
-     height: auto; 
+    height: auto; 
     position: center;
+}
+
+.answer1{
+color:green;
+background-color: #336666;
 }
 
 
