@@ -97,6 +97,13 @@
     color: green;
     background-color: #336666;
   }
+
+  #footer {
+    text-align: center;
+    color: black;
+    background: none;
+    padding-top: 20px;
+  }
 }
 @media (min-width: 576px) {
   .sidenav {
